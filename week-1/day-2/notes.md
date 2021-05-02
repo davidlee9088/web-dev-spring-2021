@@ -1,5 +1,4 @@
-HTML Tutorial
-=================
+# HTML Tutorial
 
 ## HTML Time again. Let's Go!
 
@@ -26,7 +25,6 @@ You can adjust the width and height of the video by changing the values for the 
 Let's check out how to read the documentation and try out some features. Click the video tag documentation below/
 
 The `<audio>` tag is used to embed audio content in the document (the website). Again, all you need to provide is the location fo the audio file in the src attribute in `<source>` tag which is nested in the `<audio>` tag.
-
 
 example
 
@@ -80,12 +78,11 @@ The `<label>` tag is for the end user's sake so they know which field will store
 The `<input>` tag can take on many forms depending on what value you specify for the `type` attribute.
 e.g. type can be:
 
-* radio
-* text
-* checkbox
-* submit
-* button
-
+- radio
+- text
+- checkbox
+- submit
+- button
 
 each type will give you a different type of element
 
@@ -98,17 +95,15 @@ Ugh. Why don't the input fields line up vertically?
 Critical Thinking: How can we fix this issue? Why does that work?
 
 Challenge: Implement the alignedForm mockup using table.
+
 - Slack an instructor when you have finished or if you're stuck
 
 Challenge: Implement the musicPlayer.png
+
 - Slack an instructor when you have finished or if you're stuck
 
-
 Here's some lists Resources:
- **[Quality Video Downloads](https://www.pexels.com/search/videos/nature/)** <br>
+**[Quality Video Downloads](https://www.pexels.com/search/videos/nature/)** <br>
 **[Video Tag Documentation](https://www.w3schools.com/tags/tag_video.asp)** <br>
 **[Audio Tag Documentation](https://www.w3schools.com/tags/tag_audio.asp)** <br>
 **[Form Tag Documentation](https://www.w3schools.com/html/html_forms.asp)** <br>
-
-
-

@@ -1,0 +1,52 @@
+#window {
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#imageSlider {
+  display: flex;
+  transform: translate(0px, 0);
+  animation-name: nature;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes nature {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-2500px, 0px);
+  }
+}
+
+body {
+  background-color: lightsalmon;
+}
+
+#window2 {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid;
+  display: flex;
+  margin: 0 auto;
+}
+
+#imageSlider2 img {
+  width: 500px;
+}
+
+#imageSlider2 {
+  display: flex;
+}
+
+button {
+  position: relative;
+  left: 650px;
+}
